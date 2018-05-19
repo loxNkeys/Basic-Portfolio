@@ -69,4 +69,11 @@ header h1 {
     background-color: #666666;
     color: #ffffff;
     text-align: center;
+}   
+
+header .current a {
+    color: #FF4C4C;
+    font-weight: bold;
 }
+header a:hover {
+color: }
