@@ -7,7 +7,11 @@
     <meta name="author" content="Vincent Simpson">
     <title>VS | Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Libre+Barcode+39|Lobster|Skranji" rel="stylesheet">
+    <style>
+        body {
+              background-image: url("assets/images/Backgrounds/low_contrast_linen/low_contrast_linen/low_contrast_linen.png");
+            }
+    </style>
 </head>
 <body>
     <header>
@@ -17,19 +21,27 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Contact</a></li>
+                    <li class="current"><a href="contact.html">Contact</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
-                    <li class="current"><a href="contact.html">About</a></li>
+                    <li><a href="index.html">About</a></li>
                 </ul>
             </nav>
         </div>
     </header>  
-
-    
+        <section id="contactForm">
+           <div>
+              <h2>Contact</h2>
+              <p id="contactFormName">Name</p> 
+              <p class="bordered">John</p>
+              <p id="contactFormEmail">Email</p>
+              <p class="bordered">example@google.com</p>
+              <p id="contactFormMessage">Message</p>
+              <div id="messageBox"></div>
+              <div id="submit">Submit</div>
+        </section>
     <footer class="footer">
         <p>Copyright &copy; </p>
     </footer>
-
-
 </body>
 </html>
+    
