@@ -103,7 +103,7 @@ header a:hover {
 .showcaseHeader {
     border-bottom: #cccccc 3px solid;
     color: #4aaaa5;
-}
+} 
 
 .showcaseHeader h2 {
     font-size: 30px;
@@ -157,6 +157,12 @@ header a:hover {
     position: relative;
 }
 
+section h2 {
+    color: #4aaaa5;
+    font-size: 30px;
+    border-bottom: #cccccc 3px solid; 
+}
+
 .games img{
     height: 200px;
     width: 300px;
@@ -202,4 +208,31 @@ header a:hover {
     top: 560px;
 }
 
+#contactForm {
+    margin: auto;
+    width: 960px;
+    height: 800px;
+    border: #cccccc 3px solid;
+    padding: 10px;
+    margin-top: 50px;
+    font: 14/1.5 Arial, Helvetica, sans-serif;
+    color: #777777;
+    overflow: hidden;
+    background: #ffffff;
+    position: relative;
+}
+
+#contactFormName {
+    font-size: 20px;
+}
+
+.bordered {
+    border: #cccccc 1px solid;
+    padding: 5px;
+}
+
+#messageBox {
+    height: 300px;
+    border: #cccccc 1px solid;
+}
 
